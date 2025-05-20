@@ -15,7 +15,8 @@
 
   .body{
     background-color: rgb(130, 182, 221);
-    padding: 20px;
+    padding: 40px;
+    margin: 0 60px;
   }
 
 #footing{
