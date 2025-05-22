@@ -6,11 +6,13 @@
   }
 
   #nav{
-    text-align: right;
+     text-align: right;
     font-size: x-large;
     color: rgb(99, 104, 93);
     display: flex;
-    padding: 20px 40px;
+    margin: 30px;
+    padding: 60px 40px;
+   border-style: solid;
   }
 
  #nav a {
