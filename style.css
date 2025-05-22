@@ -6,17 +6,22 @@
   }
 
   #nav{
-    background-color: rgb(93, 89, 89);
-    text-align: center;
+    text-align: right;
     font-size: x-large;
-   color: rgb(151, 182, 101);
+    color: rgb(99, 104, 93);
+    display: flex;
+    padding: 20px 40px;
   }
 
+ #nav a {
+    color: rgb(74, 74, 66);
+    font-family: 'Segoe UI', sans-serif;
+  }
 
   .body{
-    background-color: rgb(130, 182, 221);
-    padding: 40px;
-    margin:  60px;
+   background-color: rgb(222, 235, 245);
+    padding: 20px 60px;
+    margin: 0 60px;
     font-size: large;
   }
 
