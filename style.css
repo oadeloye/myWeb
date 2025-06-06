@@ -6,7 +6,8 @@
   }
 
   #nav{
-     text-align: right;
+    
+    text-align: right;
     font-size: x-large;
     color: rgb(99, 104, 93);
     display: flex;
@@ -15,16 +16,16 @@
    border-style: solid;
   }
 
- #nav a {
+  #nav a {
     color: rgb(74, 74, 66);
     font-family: 'Segoe UI', sans-serif;
   }
-
   .body{
-   background-color: rgb(222, 235, 245);
+    background-color: rgb(222, 235, 245);
     padding: 20px 60px;
     margin: 0 60px;
     font-size: large;
+    
   }
 
 #footing{
@@ -37,6 +38,7 @@
   gap: 15px;
   padding: 20px;
 }
+
 .pics img {
   width: 100%;
   height: auto;
@@ -67,4 +69,43 @@ pics img:hover{
   border-radius: 10px;
   box-shadow: 0 0 30px rgba(0, 0,0,0.6);
   cursor: pointer;
+}
+.nav_line{
+  background-color: white;
+}
+
+
+/* dndUp added the page on the index page */
+.dndUp{
+  display: flex;
+  align-items: center;
+  gap:2px;
+}
+
+.dndUp img{
+  align-self: flex-start;
+}
+
+table{
+  text-align: center;
+  width: 60%;
+  margin: 20px auto;
+  border-collapse: collapse ;
+  font-size: 1rem;
+}
+
+th,td {
+  border: 1px solid #ccc;
+  padding: 12px;
+}
+th{
+  background-color: #f2f2f2;
+}
+
+.nav2{
+  display: flex;
+  width: 48%;
+  flex-direction: column;
+  float: left;
+  margin-right: 4%;
 }
